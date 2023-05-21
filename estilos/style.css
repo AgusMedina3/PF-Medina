@@ -228,6 +228,12 @@ body{
     height: 90%;
 }
 
+/* doce lunas */
+
+.docelunas-container{
+    background-color: antiquewhite;
+}
+
 /* recomendaciones */
 
 .main-recomendaciones{
