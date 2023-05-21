@@ -8,7 +8,7 @@
 
 /* menu nav */ 
 
-nav{
+/* nav{
     position: sticky;
     top: 0;
     background-color: rgb(110, 49, 49);
@@ -43,7 +43,24 @@ nav ul li a{
     top: 1px;
     width: 150px;
     height: 150px;
+}  */
+
+/* header */
+
+header img{
+    width: 15%;
 }
+
+.navbar-nav{
+    justify-content: flex-end;
+}
+
+/* body */
+
+body{
+    background-color:antiquewhite;
+}
+
 
 /* main */ 
 
@@ -126,6 +143,7 @@ nav ul li a{
     grid-row-gap: 40px;
     justify-items: center;
     margin-top: 20px;
+    margin-bottom: 20px
 }
 
 
@@ -239,8 +257,7 @@ nav ul li a{
 }
 
 .cards-body img{
-    width: 50%;
-    height: 300px;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -280,9 +297,9 @@ nav ul li a{
 }
 
 .formulario{
-    text-align: center;
-    padding: 5%;
-    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .fieldset {
@@ -291,7 +308,6 @@ nav ul li a{
     width: 40%;
     margin: 30px;
 }
-
 
 /* footer */
 
@@ -303,45 +319,46 @@ footer {
     justify-content: center;
 }
 
-.link-redes ul a{
+.bajada-footer ul a{
     display: inline;
-    border: 2px solid antiquewhite;
-    border-radius: 10px;
+    border: 1px solid antiquewhite;
     padding: 5px;
     margin: 5px;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
 }
 
 /* MEDIA QUERIES MOBILE*/
 
 @media screen and (max-width: 576px){
-/*estilos generales*/
 
-header{
-    flex-direction: column;
-}
-.logo-inicio{
-    width: 90%;
-}
-nav{
-    padding: 10px 0px;
+/* index */
+
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
 }
 
-ul{
+header img{
+    display: flex;
+    width: 15%;
     flex-direction: column;
 }
+
 .sitio-principal{
     flex-direction: column;
     align-items: center; 
-    text-align: justify;
+    text-align: center;
 }
 .sitio-principal img{
-    width: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .videos-inicio{
     flex-direction: column;
+    width: 100%;
     align-items: center;
 }
 
@@ -350,4 +367,20 @@ ul{
 .galeria-container{
     grid-template-columns: 1fr;
 }
+
+/* contacto */
+
+.formulario{
+    flex-direction: column;
+    align-items: center;
+}
+
+/* footer */
+
+.bajada-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 }
