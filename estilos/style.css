@@ -8,19 +8,20 @@
 
 /* header */
 
-header img{
-    width: 15%;
-}
-
 /* menu nav */ 
+
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
 
 .navbar-nav{
     width: 100%;
     justify-content: end;
+    display: flex;
 }
 
 .navbar-nav li{
-    list-style-type: none;
     display: flex;
     padding: 5px;
     margin: 5px;
@@ -28,6 +29,14 @@ header img{
     font-weight: lighter;
 }
 
+header{
+    display: flex;
+}
+
+header img{
+    width: 15%;
+    display: flex;
+}
 
 /* body */
 
@@ -293,16 +302,31 @@ footer {
 
 /* index */
 
-.navbar-collapse{
+header{
     display: flex;
-    justify-content: flex-end;
+}
+
+.navbar-brand{
+    display: flex;
     flex-direction: column;
 }
 
-header img{
+.navbar-nav{
     display: flex;
-    width: 30%;
     flex-direction: column;
+}
+
+.nav-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fluid{
+    display: flex;
+}
+
+.contenido{
+    width: 100%;
 }
 
 .sitio-principal{
@@ -318,7 +342,7 @@ header img{
 
 .videos-inicio{
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     align-items: center;
 }
 
