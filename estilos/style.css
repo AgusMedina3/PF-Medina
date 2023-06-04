@@ -352,6 +352,32 @@ header{
     grid-template-columns: 1fr;
 }
 
+/* biografia */
+
+.article-conteiner1{
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.article-conteiner2{
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.article-conteiner3{
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.article-conteiner4{
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
 /* contacto */
 
 .formulario{
