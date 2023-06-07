@@ -1,32 +1,32 @@
 /* main */ 
 
 .sitio-principal{
-    background-color:antiquewhite;
+    background-color:$light-color;
     display: flex;
     width: 100%;
-}
+ 
+    img{
+        display: flex;
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 
-.sitio-principal img{
-    display: flex;
-    width: 50%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+    .contenido{
+        display: inline-block;
+        width: 49%;
+        padding: 50px;
+        position:relative;
+        bottom: 300%;
+    }
 
-.contenido{
-    display: inline-block;
-    width: 49%;
-    padding: 50px;
-    position:relative;
-    bottom: 300%;
-}
-
-.contenido h1{
-    font-size: 50px;
-    font-weight: bold;
-    color: #191919;
-    margin: 20px 0;
-    text-align: center;
+    &h1{
+        font-size: 50px;
+        font-weight: bold;
+        color: #191919;
+        margin: 20px 0;
+        text-align: center;
+    }
 }
 
 .dm{
@@ -43,7 +43,7 @@
 .videos-inicio{
     display: flex;
     justify-content: space-around;
-    background-color:antiquewhite;
+    background-color:$light-color;
 }
 
 .primer-video iframe{
@@ -61,13 +61,13 @@
 /* body */
 
 body{
-    background-color:antiquewhite;
+    background-color:$light-color;
 }
 
 /* galeria */
 
 .main-galeria{
-    background-color: antiquewhite;
+    background-color: $light-color;
 }
 
 .galeria-container{
@@ -83,7 +83,7 @@ body{
 /* biografia */
 
 .main-biografia{
-    background-color: antiquewhite;
+    background-color: $light-color;
 }
 
 .article-conteiner1{
@@ -159,7 +159,7 @@ body{
 /* doce lunas */
 
 .docelunas-container{
-    background-color: antiquewhite;
+    background-color: $light-color;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -167,7 +167,7 @@ body{
 /* recomendaciones */
 
 .main-recomendaciones{
-    background-color: antiquewhite;
+    background-color: $light-color;
 }
 
 .mangas-container{
@@ -220,7 +220,7 @@ body{
 /* contacto */
 
 .main-contacto{
-    background-color: antiquewhite;
+    background-color: $light-color;
 }
 
 .formulario{
