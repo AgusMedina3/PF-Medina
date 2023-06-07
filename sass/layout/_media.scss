@@ -1,0 +1,98 @@
+/* MEDIA QUERIES MOBILE*/
+
+@media screen and (max-width: 576px){
+
+    /* index */
+    
+    header{
+        display: flex;
+    }
+    
+    .navbar-brand{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navbar-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nav-item{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container-fluid{
+        display: flex;
+    }
+    
+    .contenido{
+        width: 100%;
+    }
+    
+    .sitio-principal{
+        flex-direction: column;
+        align-items: center; 
+        text-align: center;
+    }
+    .sitio-principal img{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .videos-inicio{
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+    
+    /* galeria */
+    
+    .galeria-container{
+        grid-template-columns: 1fr;
+    }
+    
+    /* biografia */
+    
+    .article-conteiner1{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .article-conteiner2{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .article-conteiner3{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .article-conteiner4{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    
+    /* contacto */
+    
+    .formulario{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* footer */
+    
+    .bajada-footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    }

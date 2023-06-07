@@ -1,0 +1,29 @@
+/* menu nav */ 
+
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav{
+    width: 100%;
+    justify-content: end;
+    display: flex;
+}
+
+.navbar-nav li{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+header{
+    display: flex;
+}
+
+header img{
+    width: 15%;
+    display: flex;
+}
