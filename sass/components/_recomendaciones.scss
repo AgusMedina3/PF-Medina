@@ -1,0 +1,52 @@
+/* recomendaciones */
+
+.main-recomendaciones{
+    background-color: $light-color;
+}
+
+.mangas-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 10px;
+    justify-items: center;
+}
+
+.mangas h1{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cards {
+    text-align: center;
+    padding: 50px 15px;
+}
+
+.cards-body img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.cards-body{
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    pad: 10px;
+    position: relative;
+}
+
+.cards-body h2, .cards-body p{
+    padding: 10px;
+}
+
+.-mangas-{
+    background-color:tomato;
+    padding: 5px;
+    color: #eee;
+    position: absolute;
+    top: 5px;
+    right: 120px;
+}
