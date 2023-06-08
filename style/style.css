@@ -1,10 +1,15 @@
-/* Error: Expected string.
- *   ,
- * 1 | @import flex($justify,$aling,$gap){
- *   |         ^
+/* Error: Missing argument $aling.
+ *   ,--> sass\layout\_index.scss
+ * 9 |         @include flex(center,center);
+ *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation
  *   '
- *   sass\base\_utilities.scss 1:9  @import
- *   sass\style.scss 4:9            root stylesheet */
+ *   ,--> sass\base\_utilities.scss
+ * 1 | @mixin flex($direction,$justify,$aling){
+ *   |        ================================ declaration
+ *   '
+ *   sass\layout\_index.scss 9:9  flex()
+ *   sass\layout\_index.scss 9:9  @import
+ *   sass\style.scss 14:9         root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +19,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Expected string.\a   \2577 \a 1 \2502  @import flex($justify,$aling,$gap){\d\a   \2502          ^\a   \2575 \a   sass\\base\\_utilities.scss 1:9  @import\a   sass\\style.scss 4:9            root stylesheet";
+  content: "Error: Missing argument $aling.\a   \250c \2500 \2500 > sass\\layout\\_index.scss\a 9 \2502          @include flex(center,center);\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation\a   \2575 \a   \250c \2500 \2500 > sass\\base\\_utilities.scss\a 1 \2502  @mixin flex($direction,$justify,$aling){\d\a   \2502         \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a   \2575 \a   sass\\layout\\_index.scss 9:9  flex()\a   sass\\layout\\_index.scss 9:9  @import\a   sass\\style.scss 14:9         root stylesheet";
 }
