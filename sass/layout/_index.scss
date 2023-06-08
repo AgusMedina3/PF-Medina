@@ -218,22 +218,4 @@ body{
     right: 120px;
 }
 
-/* contacto */
-
-.main-contacto{
-    background-color: $light-color;
-}
-
-.formulario{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-
-    .fieldset {
-        text-align: center;
-        padding: 70px;
-        width: 40%;
-        margin: 30px;
-    }
-}
 
