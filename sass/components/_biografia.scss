@@ -2,74 +2,62 @@
 
 .main-biografia{
     background-color: $light-color;
-}
 
-.article-conteiner1{
-    display:flex;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    align-items: center;
-}
-
-.article-conteiner2{
-    display:flex;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 20px;
-    align-items: center;
-}
-
-.article-conteiner3{
-    display:flex;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    align-items: center;
-}
-
-.article-conteiner4{
-    display:flex;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    align-items: center;
+    .article-conteiner1{
+        display:flex;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+    .article-conteiner2{
+        display:flex;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+        align-items: center;
+    }
+    .article-conteiner3{
+        @extend .article-conteiner1;
+    }
+    .article-conteiner4{
+        @extend .article-conteiner1;
+    }
 }
 
 .bio-info{
     padding: 10px;
     margin: 10px;
-}
 
-.primer-imagen img {
-    width: 90%;
-    height: 90%;
+    .primer-imagen img {
+        width: 90%;
+        height: 90%;
+    }
 }
-
 .segunda-bio-info{
     padding: 10px;
     margin: 10px;
+    
+    .segunda-imagen img {
+        width: 90%;
+        height: 90%;
+    }
 }
-
-.segunda-imagen img {
-    width: 90%;
-    height: 90%;
-}
-
 .tercer-bio-info{
     padding: 10px;
     margin: 10px;
-}
 
-.tercer-imagen img {
-    width: 90%;
-    height: 90%;
+    .tercer-imagen img {
+        width: 90%;
+        height: 90%;
+    }
 }
-
 .cuarta-bio-info{
     padding: 10px;
     margin: 10px;
-}
-
-.cuarta-imagen img {
-    width: 90%;
-    height: 90%;
-    margin: 10px;
+    
+    .cuarta-imagen img {
+        width: 90%;
+        height: 90%;
+        margin: 10px;
+    }
 }
