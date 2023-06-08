@@ -34,8 +34,7 @@
     }
 }
 .segunda-bio-info{
-    padding: 10px;
-    margin: 10px;
+    @extend .bio-info;
     
     .segunda-imagen img {
         width: 90%;
@@ -43,8 +42,7 @@
     }
 }
 .tercer-bio-info{
-    padding: 10px;
-    margin: 10px;
+    @extend .bio-info;
 
     .tercer-imagen img {
         width: 90%;
@@ -52,8 +50,7 @@
     }
 }
 .cuarta-bio-info{
-    padding: 10px;
-    margin: 10px;
+    @extend .bio-info;
     
     .cuarta-imagen img {
         width: 90%;
