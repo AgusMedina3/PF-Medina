@@ -1,0 +1,6 @@
+@import flex($justify,$aling,$gap){
+    display: $flex;
+    justify-content: $justify;
+    aling-items: $aling;
+    gap: $gap;
+}

@@ -20,44 +20,46 @@
         bottom: 300%;
     }
 
-    &h1{
+    h1{
         font-size: 50px;
         font-weight: bold;
         color: #191919;
         margin: 20px 0;
         text-align: center;
     }
-}
 
-.dm{
-    background-image: url(../assets/tanjiro2.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 100px;
-    text-align: center;
-    color: #eee;
-    font-size: 34px;
+    .dm{
+        background-image: url(../assets/tanjiro2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px;
+        text-align: center;
+        color: #eee;
+        font-size: 34px;
+    }
+
 }
 
 .videos-inicio{
     display: flex;
     justify-content: space-around;
     background-color:$light-color;
+
+    .primer-video iframe{
+        width: 500px;
+        height: 300px;
+        margin-top: 30px;
+    }
+    
+    .segundo-video iframe{
+        width: 500px;
+        height: 300px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
 
-.primer-video iframe{
-    width: 500px;
-    height: 300px;
-    margin-top: 30px;
-}
-
-.segundo-video iframe{
-    width: 500px;
-    height: 300px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
 /* body */
 
 body{
@@ -227,11 +229,12 @@ body{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+
+    .fieldset {
+        text-align: center;
+        padding: 70px;
+        width: 40%;
+        margin: 30px;
+    }
 }
 
-.fieldset {
-    text-align: center;
-    padding: 70px;
-    width: 40%;
-    margin: 30px;
-}
