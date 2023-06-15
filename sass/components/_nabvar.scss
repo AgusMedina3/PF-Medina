@@ -16,18 +16,15 @@ header{
             width: 100%;
             justify-content: end;
             display: flex;
-        
-            li{
+
+            li a{
                 display: flex;
                 padding: 5px;
                 margin: 5px;
                 font-size: 19px;
-                font-weight: lighter;
-
-                .nav-link{
-                    font-weight: bold;
-                }
+                font-weight: bold;
             }
+                
         }
     }
 }
