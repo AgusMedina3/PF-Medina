@@ -1,23 +1,332 @@
-/* Error: Missing argument $aling.
- *   ,--> sass\layout\_index.scss
- * 9 |         @include flex(center,center);
- *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation
- *   '
- *   ,--> sass\base\_utilities.scss
- * 1 | @mixin flex($direction,$justify,$aling){
- *   |        ================================ declaration
- *   '
- *   sass\layout\_index.scss 9:9  flex()
- *   sass\layout\_index.scss 9:9  @import
- *   sass\style.scss 14:9         root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Missing argument $aling.\a   \250c \2500 \2500 > sass\\layout\\_index.scss\a 9 \2502          @include flex(center,center);\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation\a   \2575 \a   \250c \2500 \2500 > sass\\base\\_utilities.scss\a 1 \2502  @mixin flex($direction,$justify,$aling){\d\a   \2502         \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a   \2575 \a   sass\\layout\\_index.scss 9:9  flex()\a   sass\\layout\\_index.scss 9:9  @import\a   sass\\style.scss 14:9         root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* menu nav */
+header {
+  display: flex;
+}
+header img {
+  width: 15%;
+  display: flex;
+}
+header .container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+header .container-fluid .navbar-nav {
+  width: 100%;
+  justify-content: end;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+header .container-fluid .navbar-nav li {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  font-size: 19px;
+  font-weight: bold;
+}
+header .container-fluid .navbar-nav .nav-link {
+  color: white;
+}
+
+/* body */
+body {
+  background-color: antiquewhite;
+}
+
+/* galeria */
+.main-galeria {
+  background-color: antiquewhite;
+}
+
+.galeria-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-row-gap: 5px;
+  justify-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* biografia */
+.main-biografia {
+  background-color: antiquewhite;
+}
+.main-biografia .article-conteiner1, .main-biografia .article-conteiner4, .main-biografia .article-conteiner3 {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.main-biografia .article-conteiner2 {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  align-items: center;
+}
+.bio-info, .cuarta-bio-info, .tercer-bio-info, .segunda-bio-info {
+  padding: 10px;
+  margin: 10px;
+}
+.bio-info .primer-imagen img, .cuarta-bio-info .primer-imagen img, .tercer-bio-info .primer-imagen img, .segunda-bio-info .primer-imagen img {
+  width: 50%;
+  height: 50%;
+}
+
+.segunda-bio-info .segunda-imagen img {
+  width: 50%;
+  height: 50%;
+}
+
+.tercer-bio-info .tercer-imagen img {
+  width: 50%;
+  height: 50%;
+}
+
+.cuarta-bio-info .cuarta-imagen img {
+  width: 50%;
+  height: 50%;
+  margin: 10px;
+}
+
+/* doce lunas */
+.docelunas-container {
+  background-color: antiquewhite;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* recomendaciones */
+.main-recomendaciones {
+  background-color: antiquewhite;
+}
+
+.mangas-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 10px;
+  justify-items: center;
+}
+
+.mangas h1 {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cards {
+  text-align: center;
+  padding: 50px 15px;
+}
+
+.cards-body img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.cards-body {
+  display: inline-block;
+  width: 30%;
+  text-align: left;
+  pad: 10px;
+  position: relative;
+}
+
+.cards-body h2, .cards-body p {
+  padding: 10px;
+}
+
+.-mangas- {
+  background-color: tomato;
+  padding: 5px;
+  color: #eee;
+  position: absolute;
+  top: 5px;
+  right: 120px;
+}
+
+/* contacto */
+.main-contacto {
+  background-color: antiquewhite;
+}
+
+img {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px;
+}
+
+.titular {
+  text-align: center;
+  font-size: 30px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.formulario .fieldset {
+  text-align: center;
+  padding: 70px;
+  width: 40%;
+  margin: 30px;
+}
+.formulario .contenedor-form {
+  width: 50%;
+  height: 50%;
+}
+
+/* footer */
+footer {
+  background-color: #191919;
+  padding: 50px;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+}
+footer ul a {
+  display: inline;
+  border: 1px solid antiquewhite;
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* main */
+.sitio-principal {
+  background-color: antiquewhite;
+  display: flex;
+  width: 100%;
+}
+.sitio-principal img {
+  justify-content: center;
+  aling-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+.sitio-principal .contenido {
+  display: inline-block;
+  width: 49%;
+  padding: 50px;
+  position: relative;
+  bottom: 300%;
+}
+.sitio-principal h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #191919;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.videos-inicio {
+  display: flex;
+  justify-content: space-around;
+  background-color: antiquewhite;
+}
+.videos-inicio .primer-video iframe {
+  width: 500px;
+  height: 300px;
+  margin-top: 30px;
+}
+.videos-inicio .segundo-video iframe {
+  width: 500px;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* MEDIA QUERIES MOBILE*/
+@media screen and (max-width: 576px) {
+  /* index */
+  header {
+    display: flex;
+  }
+  .navbar-brand {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-fluid {
+    display: flex;
+  }
+  .contenido {
+    width: 100%;
+  }
+  .sitio-principal {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .sitio-principal img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .videos-inicio {
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+  }
+  /* galeria */
+  .galeria-container {
+    grid-template-columns: 1fr;
+  }
+  /* biografia */
+  .article-conteiner1, .main-biografia .article-conteiner3, .main-biografia .article-conteiner4 {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .article-conteiner2 {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .article-conteiner3 {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .article-conteiner4 {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  /* contacto */
+  .formulario {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* footer */
+  .bajada-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

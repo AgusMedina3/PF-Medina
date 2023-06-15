@@ -29,32 +29,32 @@
     margin: 10px;
 
     .primer-imagen img {
-        width: 90%;
-        height: 90%;
+        width: 50%;
+        height: 50%;
     }
 }
 .segunda-bio-info{
     @extend .bio-info;
     
     .segunda-imagen img {
-        width: 90%;
-        height: 90%;
+        width: 50%;
+        height: 50%;
     }
 }
 .tercer-bio-info{
     @extend .bio-info;
 
     .tercer-imagen img {
-        width: 90%;
-        height: 90%;
+        width: 50%;
+        height: 50%;
     }
 }
 .cuarta-bio-info{
     @extend .bio-info;
     
     .cuarta-imagen img {
-        width: 90%;
-        height: 90%;
+        width: 50%;
+        height: 50%;
         margin: 10px;
     }
 }
