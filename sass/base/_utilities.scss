@@ -1,5 +1,4 @@
-@mixin flex($direction,$justify,$aling){
-    display: $flex;
+@mixin flex($justify,$aling){
     justify-content: $justify;
     aling-items: $aling;
 }
