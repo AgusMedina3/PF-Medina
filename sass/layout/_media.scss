@@ -103,46 +103,6 @@
         flex-direction: column;
     }
 
-    .titulo-manga1{
-        text-align: center;
-        font-size: 16px;
-    }
-
-    .parrafo-manga1{
-        text-align: center;
-        font-size: 13px;
-    }
-
-    .titulo-manga2{
-        text-align: center;
-        font-size: 16px;
-    }
-
-    .parrafo-manga2{
-        text-align: center;
-        font-size: 13px;
-    }
-
-    .titulo-manga3{
-        text-align: center;
-        font-size: 16px;
-    }
-
-    .parrafo-manga3{
-        text-align: center;
-        font-size: 13px;
-    }
-
-    .titulo-manga4{
-        text-align: center;
-        font-size: 16px;
-    }
-
-    .parrafo-manga4{
-        text-align: center;
-        font-size: 13px;
-    }
-
 
     /* contacto */
     
@@ -155,7 +115,7 @@
     
         .bajada-footer ul{
             display: flex;
-            text-align: center;
+            align-items: center;
     }
 
     .imagen-fondo{

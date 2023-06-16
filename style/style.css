@@ -113,11 +113,10 @@ body {
 }
 
 .mangas-container {
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-row-gap: 10px;
-  justify-items: center;
 }
 
 .mangas h1 {
@@ -208,10 +207,8 @@ body {
   background-color: antiquewhite;
 }
 
-img {
-  align-items: center;
-  width: 50%;
-  margin-bottom: 10px;
+.imagen-fondo{
+  background-image: url(../assets/tanjiro2.jpg);
 }
 
 .titular {
@@ -384,38 +381,6 @@ footer .bajada-footer ul {
     height: 100%;
     flex-direction: column;
   }
-  .titulo-manga1 {
-    text-align: center;
-    font-size: 16px;
-  }
-  .parrafo-manga1 {
-    text-align: center;
-    font-size: 13px;
-  }
-  .titulo-manga2 {
-    text-align: center;
-    font-size: 16px;
-  }
-  .parrafo-manga2 {
-    text-align: center;
-    font-size: 13px;
-  }
-  .titulo-manga3 {
-    text-align: center;
-    font-size: 16px;
-  }
-  .parrafo-manga3 {
-    text-align: center;
-    font-size: 13px;
-  }
-  .titulo-manga4 {
-    text-align: center;
-    font-size: 16px;
-  }
-  .parrafo-manga4 {
-    text-align: center;
-    font-size: 13px;
-  }
   /* contacto */
   .formulario {
     flex-direction: column;
@@ -424,7 +389,7 @@ footer .bajada-footer ul {
   /* footer */
   .bajada-footer ul {
     display: flex;
-    text-align: center;
+    align-items: center;
   }
   .imagen-fondo {
     flex-direction: column;
