@@ -1,96 +1,77 @@
 /* recomendaciones */
 
-.main-recomendaciones{
-    background-color: $light-color;
-}
-
-.mangas-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-row-gap: 10px;
-}
-
-.mangas h1{
-    text-align: center;
-    padding: 5px;
-    margin: 5px;
-    font-size: 30px;
-    font-weight: bold;
-
+.cards1{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    img{
+        width: 17%;
+        margin: 3%;
+    }
     .titulo-manga1{
-        font-size: 10px;
+        font-size: 28px;
         text-align: center;
+        flex-direction: column;
+        .parrafo-manga1{
+            font-size: 15px;
+            text-align: center;
+        }
     }
 }
 
-.cards {
-    text-align: center;
-    padding: 50px 15px;
+.cards2{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    img{
+        width: 17%;
+        margin: 3%;
+    }
+    .titulo-manga2{
+        font-size: 28px;
+        text-align: center;
+        flex-direction: column;
+        .parrafo-manga2{
+            font-size: 15px;
+            text-align: center;
+        }
+    }
 }
 
-.cards-body img{
-    width: 100%;
-    object-fit: cover;
+.cards3{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    img{
+        width: 17%;
+        margin: 3%;
+    }
+    .titulo-manga3{
+        font-size: 28px;
+        text-align: center;
+        flex-direction: column;
+        .parrafo-manga3{
+            font-size: 15px;
+            text-align: center;
+        }
+    }
 }
 
-.cards-body{
-    display: inline-block;
-    width: 30%;
-    text-align: left;
-    pad: 10px;
-    position: relative;
-}
-
-.cards-body h2, .cards-body p{
-    padding: 10px;
-}
-
-.-mangas-{
-    background-color:tomato;
-    padding: 5px;
-    color: #eee;
-    position: absolute;
-    top: 5px;
-    right: 120px;
-}
-
-.titulo-manga1{
-    text-align: center;
-    font-size: 16px;
-}
-
-.parrafo-manga1{
-    text-align: center;
-    font-size: 13px;
-}
-
-.titulo-manga2{
-    text-align: center;
-    font-size: 16px;
-}
-
-.parrafo-manga2{
-    text-align: center;
-    font-size: 13px;
-}
-
-.titulo-manga3{
-    text-align: center;
-    font-size: 16px;
-}
-
-.parrafo-manga3{
-    text-align: center;
-    font-size: 13px;
-}
-
-.titulo-manga4{
-    text-align: center;
-    font-size: 16px;
-}
-
-.parrafo-manga4{
-    text-align: center;
-    font-size: 13px;
+.cards4{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    img{
+        width: 17%;
+        margin: 3%;
+    }
+    .titulo-manga4{
+        font-size: 28px;
+        text-align: center;
+        flex-direction: column;
+        .parrafo-manga4{
+            font-size: 15px;
+            text-align: center;
+        }
+    }
 }
