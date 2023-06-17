@@ -78,6 +78,7 @@ body {
 .bio-info .primer-imagen img, .cuarta-bio-info .primer-imagen img, .tercer-bio-info .primer-imagen img, .segunda-bio-info .primer-imagen img {
   width: 100%;
   height: 100%;
+  border-radius: 50%;
 }
 
 .segunda-bio-info .segunda-imagen img {
@@ -104,9 +105,60 @@ body {
   justify-content: center;
 }
 
+.docelunas-titulo1 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.docelunas-parrafo1 {
+  text-align: center;
+  font-size: 18px;
+  margin: 5%;
+}
+
+.docelunas-titulo2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.docelunas-parrafo2 {
+  text-align: center;
+  font-size: 18px;
+  margin: 5%;
+}
+
+.docelunas-titulo3 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.docelunas-parrafo3 {
+  text-align: center;
+  font-size: 18px;
+  margin: 5%;
+}
+
+.docelunas-titulo4 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.docelunas-parrafo4 {
+  text-align: center;
+  font-size: 18px;
+  margin: 5%;
+}
+
 /* recomendaciones */
-.card {
+.container {
   display: flex;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.card {
+  margin-inline: 1%;
 }
 
 /* contacto */
