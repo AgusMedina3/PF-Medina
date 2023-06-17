@@ -105,80 +105,8 @@ body {
 }
 
 /* recomendaciones */
-.cards1 {
+.card {
   display: flex;
-  align-items: center;
-  font-size: 15px;
-}
-.cards1 img {
-  width: 17%;
-  margin: 3%;
-}
-.cards1 .titulo-manga1 {
-  font-size: 28px;
-  text-align: center;
-  flex-direction: column;
-}
-.cards1 .titulo-manga1 .parrafo-manga1 {
-  font-size: 15px;
-  text-align: center;
-}
-
-.cards2 {
-  display: flex;
-  align-items: center;
-  font-size: 15px;
-}
-.cards2 img {
-  width: 17%;
-  margin: 3%;
-}
-.cards2 .titulo-manga2 {
-  font-size: 28px;
-  text-align: center;
-  flex-direction: column;
-}
-.cards2 .titulo-manga2 .parrafo-manga2 {
-  font-size: 15px;
-  text-align: center;
-}
-
-.cards3 {
-  display: flex;
-  align-items: center;
-  font-size: 15px;
-}
-.cards3 img {
-  width: 17%;
-  margin: 3%;
-}
-.cards3 .titulo-manga3 {
-  font-size: 28px;
-  text-align: center;
-  flex-direction: column;
-}
-.cards3 .titulo-manga3 .parrafo-manga3 {
-  font-size: 15px;
-  text-align: center;
-}
-
-.cards4 {
-  display: flex;
-  align-items: center;
-  font-size: 15px;
-}
-.cards4 img {
-  width: 17%;
-  margin: 3%;
-}
-.cards4 .titulo-manga4 {
-  font-size: 28px;
-  text-align: center;
-  flex-direction: column;
-}
-.cards4 .titulo-manga4 .parrafo-manga4 {
-  font-size: 15px;
-  text-align: center;
 }
 
 /* contacto */
