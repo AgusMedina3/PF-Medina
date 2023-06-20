@@ -4,14 +4,6 @@
     background-color: $light-color;
 }
 
-img{
-    align-items: center;
-    margin-bottom: 10px;
-    width: 50%;
-    height: 50%;
-
-}
-
 .titular{
     text-align: center;
     font-size: 30px;
@@ -21,13 +13,6 @@ img{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-
-    .fieldset {
-        text-align: center;
-        padding: 70px;
-        width: 40%;
-        margin: 30px;
-    }
 
     .contenedor-form{
         width: 50%;

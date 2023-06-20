@@ -2,59 +2,62 @@
 
 .main-biografia{
     background-color: $light-color;
-
-    .article-conteiner1{
-        display:flex;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        align-items: center;
-    }
-    .article-conteiner2{
-        display:flex;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        padding: 20px;
-        align-items: center;
-    }
-    .article-conteiner3{
-        @extend .article-conteiner1;
-    }
-    .article-conteiner4{
-        @extend .article-conteiner1;
-    }
 }
 
-.bio-info{
-    padding: 10px;
-    margin: 10px;
+.inicio-logo{
+    display: flex;
+    margin-top: 5%;
 
-    .primer-imagen img{
-        width: 100%;
-        height: 100%;
-        border-radius: 50%
-    }
+img{
+    width: 23%;
+    height: 23%;
+    margin: 4%;
 }
-.segunda-bio-info{
-    @extend .bio-info;
-    
-    .segunda-imagen img {
-        width: 100%;
-        height: 100%;
-    }
+
+.inicio-parrafo{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
 }
-.tercer-bio-info{
-    @extend .bio-info;
 }
-    .tercer-imagen img {
-        width: 100%;
-        height: 100%;
+
+.titular1{
+    text-align: center;
+    font-size: 15px;
 }
-.cuarta-bio-info{
-    @extend .bio-info;
-    
-    .cuarta-imagen img {
-        width: 100%;
-        height: 100%;
-        margin: 10px;
-    }
+
+.container-pilares{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    margin: 7%;
+}
+
+.titular2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.container-expilares{
+    display: flex;
+    margin: 2%;
+}
+
+.titular3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.container-cazadores{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 10px;
+    margin: 5%;
 }

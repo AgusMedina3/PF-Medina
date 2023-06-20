@@ -3,31 +3,41 @@
 .sitio-principal{
     background-color:$light-color;
     display: flex;
-    width: 100%;
- 
-    img{
-        @include flex(center,center);
-        margin-top: 20px;
-        margin-bottom: 10px;
-        width: 50%;
-    }
-
-    .contenido{
-        display: inline-block;
-        width: 49%;
-        padding: 50px;
-        position:relative;
-        bottom: 300%;
-    }
-
-    h1{
-        font-size: 50px;
-        font-weight: bold;
-        color: #191919;
-        margin: 20px 0;
-        text-align: center;
-    }
+    width: 950px;
+    height: 730px;
+    margin: 13%;
 }
+
+.sitio-principal img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.titular-index{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 30px;
+}
+
+.parrafo-index{
+    align-items: center;
+    font-size: 23px;
+    margin: 5%;
+    font-size: 20px;
+}
+
 .videos-inicio{
     display: flex;
     justify-content: space-around;
