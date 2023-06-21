@@ -7,13 +7,13 @@ header{
     img{
         width: 18%;
         display: flex;
-
     }
 
     .container-fluid{
+        width: 100%;
         display: flex;
         justify-content: center;
-    
+
         .navbar-nav{
             width: 100%;
             justify-content: end;

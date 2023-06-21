@@ -7,7 +7,8 @@ footer {
     display: flex;
     font-weight: bold;
     justify-content: center;
-    
+    position: sticky;
+    top: 0;
 
     ul a{
         display: inline;
