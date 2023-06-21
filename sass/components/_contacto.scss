@@ -2,26 +2,25 @@
 
 .main-contacto{
     background-color: $light-color;
-}
-
-.titular{
-    text-align: center;
-    font-size: 25px;
-    margin-top: 2%;
-}
-
-.formulario{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 60px;
+    .titular{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 2%;
     }
-
-.contenedor-form{
-    width: 50%;
-    height: 50%;
-    justify-content: center;
-    margin-top: 30px;
+    .formulario{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+        .contenedor-form{
+            width: 50%;
+            height: 50%;
+            justify-content: center;
+            margin-top: 30px;
+        }
+    }
 }
+
+
 
 
 

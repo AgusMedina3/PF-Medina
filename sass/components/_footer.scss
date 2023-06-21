@@ -10,14 +10,24 @@ footer {
     position: sticky;
     top: 0;
 
-    ul a{
-        display: inline;
-        padding: 5px;
-        margin: 5px;
-        font-weight: bold;
-    }
-
-    .bajada-footer ul{
+    ul{
         color:white;
+        align-items: flex-end;
+        
+        a{
+            display: inline;
+            padding: 5px;
+            margin: 5px;
+            font-weight: bold;
+        }
     } 
+}
+
+.logo-footer{
+    display: inline;
+
+    img{
+        width: 30%;
+        height: 30%;
+    }
 }

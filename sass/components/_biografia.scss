@@ -2,23 +2,30 @@
 
 .main-biografia{
     background-color: $light-color;
-}
+    
+    .biografia-titulo{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 2%;
+    }
 
-.inicio-logo{
-    display: flex;
-    margin-top: 5%;
+    .inicio-logo{
+        display: flex;
+        margin-top: 5%;
+    
+    img{
+        width: 23%;
+        height: 23%;
+        margin: 4%;
 
-img{
-    width: 23%;
-    height: 23%;
-    margin: 4%;
-}
+        .inicio-parrafo{
+            text-align: center;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+        }        
+    }
 
-.inicio-parrafo{
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
 }
 
 .card{
@@ -26,27 +33,21 @@ img{
     border: solid 1px rgb(82, 22, 22);
     margin: 1%;
 }
-
+    
 .card-title{
     color: white;
     text-align: center;
 }
-
+    
 .card-text{
     color: white;
     text-align: center;
 }
-
+        
 .btn-primary{
     background-color: red;
     border: solid 1px black;
     display: block;
-}
-
-.biografia-titulo{
-    text-align: center;
-    font-size: 25px;
-    margin-top: 2%;
 }
 
 .titular1{
