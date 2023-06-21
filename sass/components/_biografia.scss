@@ -18,13 +18,40 @@ img{
     text-align: center;
     margin-top: 2%;
     margin-bottom: 2%;
-    display: flex;
 }
+}
+
+.card{
+    background-color: black;
+    border: solid 1px rgb(82, 22, 22);
+}
+
+.card-title{
+    color: white;
+    text-align: center;
+}
+
+.card-text{
+    color: white;
+    text-align: center;
+}
+
+.btn-primary{
+    background-color: red;
+    border: solid 1px black;
+    display: block;
+}
+
+.biografia-titulo{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2%;
 }
 
 .titular1{
     text-align: center;
-    font-size: 15px;
+    font-size: 25px;
+    margin-top: 3%;
 }
 
 .container-pilares{
@@ -37,21 +64,19 @@ img{
 
 .titular2{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 2%;
-    margin-bottom: 2%;
 }
 
 .container-expilares{
     display: flex;
-    margin: 2%;
+    padding:  2%;
 }
 
 .titular3{
     text-align: center;
-    font-size: 30px;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    font-size: 25px;
+    margin-top: 3%;
 }
 
 .container-cazadores{

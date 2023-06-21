@@ -44,6 +44,12 @@ body {
   background-color: antiquewhite;
 }
 
+.galeria-titulo {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 2%;
+}
+
 .galeria-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -80,12 +86,39 @@ img:hover {
   text-align: center;
   margin-top: 2%;
   margin-bottom: 2%;
-  display: flex;
+}
+
+.card {
+  background-color: black;
+  border: solid 1px rgb(82, 22, 22);
+}
+
+.card-title {
+  color: white;
+  text-align: center;
+}
+
+.card-text {
+  color: white;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: red;
+  border: solid 1px black;
+  display: block;
+}
+
+.biografia-titulo {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 2%;
 }
 
 .titular1 {
   text-align: center;
-  font-size: 15px;
+  font-size: 25px;
+  margin-top: 3%;
 }
 
 .container-pilares {
@@ -98,21 +131,19 @@ img:hover {
 
 .titular2 {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 2%;
-  margin-bottom: 2%;
 }
 
 .container-expilares {
   display: flex;
-  margin: 2%;
+  padding: 2%;
 }
 
 .titular3 {
   text-align: center;
-  font-size: 30px;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  font-size: 25px;
+  margin-top: 3%;
 }
 
 .container-cazadores {
@@ -134,12 +165,6 @@ img:hover {
 .docelunas-titulo1 {
   text-align: center;
   font-size: 25px;
-  color: white;
-}
-
-.border-success {
-  background-color: black;
-  height: 50%;
 }
 
 .docelunas-parrafo1 {
@@ -182,15 +207,17 @@ img:hover {
 }
 
 /* recomendaciones */
-.container {
-  display: flex;
-  margin-left: 2%;
-  margin-bottom: 2%;
+.mangas-titular {
+  text-align: center;
+  font-size: 25px;
   margin-top: 2%;
 }
 
-.card {
-  margin-inline: 1%;
+.container-mangas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 10px;
 }
 
 /* contacto */
@@ -200,7 +227,8 @@ img:hover {
 
 .titular {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
+  margin-top: 2%;
 }
 
 .formulario {
@@ -237,9 +265,14 @@ footer .bajada-footer ul {
 .sitio-principal {
   background-color: antiquewhite;
   display: flex;
-  width: 950px;
-  height: 730px;
-  margin: 13%;
+  width: 100vw;
+  height: 500px;
+}
+
+.titular-index {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 2%;
 }
 
 .sitio-principal img {
@@ -291,7 +324,7 @@ img:hover {
 
 /* MEDIA QUERIES MOBILE*/
 @media screen and (max-width: 576px) {
-  /* index */
+  /* header */
   header {
     display: flex;
     flex-direction: column;
@@ -316,26 +349,21 @@ img:hover {
   }
   /* index */
   .sitio-principal {
-    flex-direction: column;
+    flex-direction: row;
   }
   .sitio-principal img {
+    height: 100%;
+    width: 1%;
     display: flex;
-    flex-direction: column;
-  }
-  img:hover {
-    display: flex;
-    flex-direction: column;
   }
   .titular-index {
-    display: block;
     flex-direction: column;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
   }
   .parrafo-index {
-    display: flex;
     flex-direction: column;
-    font-size: 15px;
+    font-size: 18px;
   }
   .videos-inicio {
     flex-direction: column;
@@ -399,12 +427,13 @@ img:hover {
     width: 100%;
   }
   /* recomendaciones */
-  .container {
+  .mangas-titular {
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .card {
-    margin-bottom: 10%;
+  .container-mangas {
+    grid-template-columns: 1fr;
   }
   /* contacto */
   .formulario {
@@ -412,10 +441,8 @@ img:hover {
     align-items: center;
   }
   /* footer */
-  .bajada-footer {
-    display: flex;
-    align-items: center;
-    margin-top: 0;
+  footer {
+    margin-top: 30%;
   }
 }
 

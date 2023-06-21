@@ -3,9 +3,14 @@
 .sitio-principal{
     background-color:$light-color;
     display: flex;
-    width: 950px;
-    height: 730px;
-    margin: 13%;
+    width: 100vw;
+    height: 500px;
+}
+
+.titular-index{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2%;
 }
 
 .sitio-principal img{

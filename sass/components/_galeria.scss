@@ -4,6 +4,12 @@
     background-color: $light-color;
 }
 
+.galeria-titulo{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2%;
+}
+
 .galeria-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
