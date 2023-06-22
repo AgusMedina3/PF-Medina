@@ -13,12 +13,14 @@ footer {
     ul{
         color:white;
         align-items: flex-end;
-        
+        &:hover{
+            transition: .5s ease;
         a{
             display: inline;
             padding: 5px;
             margin: 5px;
             font-weight: bold;
+        }    
         }
     } 
 }

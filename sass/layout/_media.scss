@@ -1,3 +1,98 @@
+/* MEDIA QUERIES TABLET*/
+
+@media screen and (max-width: 768px){
+
+    /* header */
+    
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navbar-brand{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navbar-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nav-item{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container-fluid{
+        display: flex;
+    }
+
+        /* index */
+
+    .videos-inicio{
+        flex-direction: column;
+        align-items: center;
+    }
+
+        /* biografia */
+
+   .inicio-logo{
+    display: flex;
+    flex-direction: column;
+   }
+    
+    .inicio-logo img{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+        margin: 5%;
+    }
+
+    .inicio-parrafo{
+        flex-direction: column;
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .titular1{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .container-pilares{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titular2{
+        flex-direction: column;
+    }
+    .container-expilares{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titular3{
+        flex-direction: column;
+    }
+    .container-cazadores{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card img{
+        width: 100%;
+    }
+
+    .card-body{
+        width: 100%;
+    }
+}
+
 /* MEDIA QUERIES MOBILE*/
 
 @media screen and (max-width: 576px){
@@ -148,6 +243,15 @@
     
     footer{
         margin-top: 30%;
+        
+        .bajada-footer ul a{
+            flex-direction: column;
+            justify-content: center;
+            
+            .logo-footer{
+                flex-direction: column;
+            }
+        }
     }
 
 }
