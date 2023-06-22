@@ -1,7 +1,7 @@
 /* contacto */
 
 .main-contacto{
-    background-color: $light-color;
+    background-image: linear-gradient(to bottom, rgb(237, 197, 197), rgb(30, 29, 29));
     .titular{
         text-align: center;
         font-size: 25px;
@@ -12,7 +12,7 @@
         justify-content: center;
         margin-bottom: 60px;
         font-size: bold;
-        color: black;
+        color: white;
         .contenedor-form{
             width: 50%;
             height: 50%;

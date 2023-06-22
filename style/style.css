@@ -217,7 +217,7 @@ body {
 
 /* contacto */
 .main-contacto {
-  background-color: antiquewhite;
+  background-image: linear-gradient(to bottom, rgb(237, 197, 197), rgb(30, 29, 29));
 }
 .main-contacto .titular {
   text-align: center;
@@ -229,7 +229,7 @@ body {
   justify-content: center;
   margin-bottom: 60px;
   font-size: bold;
-  color: black;
+  color: white;
 }
 .main-contacto .formulario .contenedor-form {
   width: 50%;
@@ -252,11 +252,12 @@ footer {
   top: 0;
 }
 footer ul {
+  justify-content: center;
   color: white;
   align-items: flex-end;
 }
 footer ul:hover {
-  transition: 0.5s ease;
+  transition: 0.1s ease;
 }
 footer ul:hover a {
   display: inline;
