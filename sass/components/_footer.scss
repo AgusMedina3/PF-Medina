@@ -11,11 +11,13 @@ footer {
     top: 0;
 
     ul{
+        margin-inline-start: 20%;
         justify-content: center;
         color:white;
         align-items: flex-end;
         &:hover{
-            transition: .10s ease;
+            color: rgb(134, 62, 62);
+            transition: 2s;
         a{
             display: inline;
             padding: 5px;

@@ -40,8 +40,7 @@
 }
     
 .card-text{
-    color: white;
-    text-align: center;
+    @extend .card-title;
 }
         
 .btn-primary{
@@ -76,9 +75,7 @@
 }
 
 .titular3{
-    text-align: center;
-    font-size: 25px;
-    margin-top: 3%;
+    @extend .titular1;
 }
 
 .container-cazadores{
@@ -86,5 +83,5 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-row-gap: 10px;
-    margin: 5%;
+    margin: 7%;
 }
