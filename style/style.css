@@ -13,7 +13,7 @@ header {
   background-color: black;
 }
 header img {
-  width: 18%;
+  width: 10%;
   display: flex;
 }
 header .container-fluid {
@@ -270,6 +270,10 @@ footer ul:hover a {
 }
 
 /* main */
+.banner-index img {
+  width: 100%;
+}
+
 .sitio-principal {
   background-color: antiquewhite;
   display: flex;
@@ -418,6 +422,10 @@ footer ul:hover a {
     display: flex;
   }
   /* index */
+  .banner-index img {
+    width: 100%;
+    height: 100%;
+  }
   .sitio-principal {
     flex-direction: row;
   }
