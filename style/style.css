@@ -13,7 +13,7 @@ header {
   background-color: black;
 }
 header img {
-  width: 10%;
+  width: 15%;
   display: flex;
 }
 header .container-fluid {
@@ -50,7 +50,8 @@ body {
   font-size: 25px;
   margin-top: 2%;
 }
-.main-galeria .galeria-container {
+
+.galeria-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -58,7 +59,8 @@ body {
   margin: 5%;
   transition: 0.6s;
 }
-.main-galeria .galeria-container img {
+
+img {
   width: 90%;
   height: 90%;
   padding: 2%;
@@ -270,7 +272,7 @@ footer ul:hover a {
 }
 
 /* main */
-.banner-index img {
+.banner-index {
   width: 100%;
 }
 
@@ -422,10 +424,6 @@ footer ul:hover a {
     display: flex;
   }
   /* index */
-  .banner-index img {
-    width: 100%;
-    height: 100%;
-  }
   .sitio-principal {
     flex-direction: row;
   }
@@ -446,10 +444,15 @@ footer ul:hover a {
   .videos-inicio {
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    height: 100%;
   }
   /* galeria */
   .galeria-container {
     grid-template-columns: 1fr;
+    margin: 5%;
+    width: 100%;
+    align-items: center;
   }
   /* biografia */
   .inicio-logo {
